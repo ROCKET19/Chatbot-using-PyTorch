@@ -1,6 +1,6 @@
 # Chatbot-using-PyTorch
 
-A Conversational chatbot which makes use of Feed Forward Neural Network (FNN) to train the dataset and let the bot respond to the user messages. It can be used in any context (after properly using the dataset for the given context to train the model).
+A Rule based chatbot which makes use of Feed Forward Neural Network (FNN) to train the dataset and let the bot respond to the user messages. It can be used in any context (after properly using the dataset for the given context to train the model).
 
 The following tools/libraries has been used:
 - PyTorch
