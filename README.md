@@ -14,6 +14,10 @@ A Chatbot which connects server and client using TCP connection (Socket Programm
 		
 3. If any changes are made to the 'pattern' and 'responses' in the intents.json dataset. Then execute the train.py file to train the model (change the hyperparameters according to the need).
 
-4. To execute the chatbot, first execute the server.py and then client.py...
+4. To execute the chatbot, 
+* first execute the nltk_utils.py
+* then model.py
+* followed by train.py
+* and finally open the server (server.py) and then client (client.py) to establish connection between server and client using TCP connection.
 
 ### Enjoy....
