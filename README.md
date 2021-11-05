@@ -10,6 +10,7 @@ A Chatbot which connects server and client using TCP connection (Socket Programm
 * pip install torch
 * pip install numpy
 * pip install nltk
+* pip install nlp
 		
 3. If any changes are made to the 'pattern' and 'responses' in the intents.json dataset. Then execute the train.py file to train the model (change the hyperparameters according to the need).
 
