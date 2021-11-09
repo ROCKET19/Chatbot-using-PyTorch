@@ -9,10 +9,11 @@
         "sup",
         "Is anyone there?",
         "Hello",
+        "Hallo",
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey there!",
         "Hello, thanks for visiting. What can I do for you?",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -22,7 +23,7 @@
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
+        "Thanks for visiting, See you later",
         "Have a nice day",
         "Bye! Come back again soon."
       ]
@@ -30,7 +31,7 @@
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["I am Happy to help!", "Any time!", "Its My pleasure!"]
     },
     {
       "tag": "items",
@@ -79,6 +80,24 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?", "What are you?", "Who you are?", "what is your name", "what should I call you", "whats your name?"
+      ],
+      "responses": [
+        "You can call me JARVIS. An Artificial Intelligent bot."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you", "Tell me your problem to assist you"
       ]
     }
   ]
